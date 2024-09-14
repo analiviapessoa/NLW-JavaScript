@@ -6,3 +6,16 @@
 - Estrutura de dados (functions, object, array)
 - Controle de fluxo (if/else)
 - Estrutura de repetição (for, while)
+
+## Tipos de dados
+- String (texto) : "" '' ``
+- Number (Número) : Inteiros e decimais
+
+## Escopo e variáveis
+- Variáveis globais : Fora do escopo
+- Variáveis locais : Dentro do escopo ({})
+- let : Tipo mutável de variável (let nome_variavel = valor_variavel)
+- const : Contante, não muda o seu valor (cons nome_variavel = valor_variavel)
+
+## Operadores
+- = : Atribuição de valor
