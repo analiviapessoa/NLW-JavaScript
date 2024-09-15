@@ -19,3 +19,21 @@
 
 ## Operadores
 - = : Atribuição de valor
+- + : Concatenação de valores
+
+## Arrays
+- Lista []
+
+## Objetos
+-   let nome = {
+        variável1: x,
+        variável2: y,
+    }
+- Acessar valor do objeto : nome_objeto.valor
+
+## Função
+- Named function : function nome() {}
+- Arrow function : const nome = () => {}
+
+## Print
+console.log()
