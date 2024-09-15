@@ -37,3 +37,6 @@
 
 ## Print
 console.log()
+
+## Estrutura de repetição
+- While (){}
