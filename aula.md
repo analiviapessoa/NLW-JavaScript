@@ -40,3 +40,17 @@ console.log()
 
 ## Estrutura de repetição
 - While (){}
+
+## Condicionais
+- Switch = Controle de fluxo
+    const funcao = () => {
+        let opcao = x,y ou z
+        switch(opcao){
+            case x :
+                //faz algo
+            case y :
+                //faz algo
+            case z : 
+                //faz algo
+        }
+    }
