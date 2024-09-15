@@ -24,6 +24,7 @@
 
 ## Arrays
 - Lista []
+- Copiar elementos de um array para o outro array: [...nome_outro_array]
 
 ## Objetos
 -   let nome = {
@@ -58,8 +59,8 @@ console.log()
 - If e else
 
 ## Módulos em Node.js
-- Biblioteca "inquirer" para criar prompts interativos (Perguntas para o usuário - Seleção ou input)
-    const { select, input } = require('@inquirer/prompts')
+- Biblioteca "inquirer" para criar prompts interativos (Perguntas para o usuário)
+    const { select, input, checkbox } = require('@inquirer/prompts')
 
 ## Programação assíncrona e Promises
 - Uso de funções assíncronas (o await faz com que o código espere e rode outras coisas antes)
@@ -77,3 +78,4 @@ console.log()
         },
     ]
 }))
+
