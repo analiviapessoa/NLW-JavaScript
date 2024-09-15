@@ -54,3 +54,24 @@ console.log()
                 //faz algo
         }
     }
+
+## Módulos em Node.js
+- Biblioteca "inquirer" para criar prompts interativos (Perguntas para o usuário)
+    const { select } = require('@inquirer/prompts')
+
+## Programação assíncrona e Promises
+- Uso de funções assíncronas 
+(const nome = async() => {})
+(const nome = await select({
+    message: a,
+    choices: [
+        {
+            name: x,
+            value: y
+        },
+        {
+            name: z,
+            value: w
+        },
+    ]
+}))
