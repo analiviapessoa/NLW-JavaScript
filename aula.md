@@ -10,6 +10,7 @@
 ## Tipos de dados
 - String (texto) : "" '' ``
 - Number (Número) : Inteiros e decimais
+- boolean (Booleano) : True ou False
 
 ## Escopo e variáveis
 - Variáveis globais : Fora do escopo
@@ -25,6 +26,7 @@
 ## Arrays
 - Lista []
 - Copiar elementos de um array para o outro array: [...nome_outro_array]
+- Métodos de array
 
 ## Objetos
 -   let nome = {
