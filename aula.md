@@ -20,6 +20,7 @@
 ## Operadores
 - = : Atribuição de valor
 - + : Concatenação de valores
+- == != >= <= > < : Comparação de valores
 
 ## Arrays
 - Lista []
@@ -54,15 +55,16 @@ console.log()
                 //faz algo
         }
     }
+- If e else
 
 ## Módulos em Node.js
-- Biblioteca "inquirer" para criar prompts interativos (Perguntas para o usuário)
-    const { select } = require('@inquirer/prompts')
+- Biblioteca "inquirer" para criar prompts interativos (Perguntas para o usuário - Seleção ou input)
+    const { select, input } = require('@inquirer/prompts')
 
 ## Programação assíncrona e Promises
-- Uso de funções assíncronas 
+- Uso de funções assíncronas (o await faz com que o código espere e rode outras coisas antes)
 (const nome = async() => {})
-(const nome = await select({
+(const opcao = await select({
     message: a,
     choices: [
         {
