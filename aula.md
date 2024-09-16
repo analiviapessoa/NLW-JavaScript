@@ -22,11 +22,11 @@
 - = : Atribuição de valor
 - + : Concatenação de valores
 - == != >= <= > < : Comparação de valores
+- [...array] : Spread operator, copia elementos de um array para outro
 
 ## Arrays
 - Lista []
-- Copiar elementos de um array para o outro array: [...nome_outro_array]
-- Métodos de array
+- Métodos de array : push, HOF (find, forEach, filter)
 
 ## Objetos
 -   let nome = {
