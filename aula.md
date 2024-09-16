@@ -90,3 +90,21 @@ if (mensagem != ""){        //mensagm nao eh vazia
     ]
 }))
 
+## j.son
+- Formato de arquivo em JavaScript 
+- JSON.parse = Transforma de JSON para JS
+- JSON.stringify = Transforma de JS para JSON
+
+const funcao = async() => {
+    try{
+        const dados = await fs.readFile("metas.json", "utf-8")
+        metas = JSON.parse(dados)
+    }
+    catch(erro) {
+        metas =[]
+    }
+}
+
+const funcao = async() => {
+    await fs.writeFile("metas.json", JSON.stringify(metas, null, 2))
+}
