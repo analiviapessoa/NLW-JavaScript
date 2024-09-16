@@ -41,8 +41,15 @@ const nome = itens.map((item) => {
 - Named function : function nome() {}
 - Arrow function : const nome = () => {}
 
-## Print
-console.log()
+## Console
+console.log() = Printar
+console.clear() = Apagar terminal
+
+if (mensagem != ""){        //mensagm nao eh vazia
+    console.log(mensagem)   //printa a mensagem
+    console.log("")         //pula uma linha
+    mensagem = ""           //apaga a mensagem
+}
 
 ## Estrutura de repetição
 - While (){}
