@@ -26,8 +26,10 @@
 
 ## Arrays
 - Lista []
-- Métodos de array : push, HOF (find, forEach, filter)
-
+- Métodos de array : push, HOF (find, forEach, filter, map - altera o array original)
+const nome = itens.map((item) => {
+    return {value: item.value, checked: false ou true}
+})
 ## Objetos
 -   let nome = {
         variável1: x,
