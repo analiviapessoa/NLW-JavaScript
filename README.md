@@ -10,6 +10,7 @@ Principais tópicos abordados :
 - Programação assíncrona e Promises;
 -  Módulos em Node.js;
 -  Arquivo j.son;
+-  Git Bash.
 
 Demonstração do aplicativo rodado no git bash :
 
